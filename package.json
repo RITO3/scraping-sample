@@ -1,0 +1,49 @@
+{
+  "name": "scraping-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prebuild":"rimraf ./dist",
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RITO3/scraping-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RITO3/scraping-sample/issues"
+  },
+  "homepage": "https://github.com/RITO3/scraping-sample#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.1",
+    "@types/puppeteer": "^2.0.0",
+    "@types/selenium-webdriver": "^4.0.6",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
+    "cpx": "^1.5.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^24.9.0",
+    "jest-html-reporters": "^1.2.1",
+    "jest-junit": "^10.0.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.1",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.5.4",
+    "typedoc": "^0.15.6"
+  },
+  "dependencies": {
+    "log4js": "^6.1.0",
+    "moment": "^2.24.0",
+    "puppeteer": "^2.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}

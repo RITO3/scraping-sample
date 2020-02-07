@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    // devtool
+    "pflannery.vscode-versionlens",
+    // typescript
+    "pmneo.tsimporter",
+    // eslint
+    "dbaeumer.vscode-eslint",
+    // prettier
+    "esbenp.prettier-vscode",
+    // editorconfig
+    "editorconfig.editorconfig",
+    // jsdoc
+    "joelday.docthis",
+    // jest
+    "hbenl.vscode-test-explorer",
+    "orta.vscode-jest",
+    "rtbenfield.vscode-jest-test-adapter",
+    "ryanluker.vscode-coverage-gutters",
+
+    // git
+
+
+    // other
+    "streetsidesoftware.code-spell-checker"
+  ]
+}

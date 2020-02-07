@@ -1,0 +1,18 @@
+body {
+  background-color: darkseagreen;
+}
+
+h1,
+h3 {
+  color: white;
+}
+
+.card {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+figcaption{
+  color: white;
+  text-align: center;
+}
